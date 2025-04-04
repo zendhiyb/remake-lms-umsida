@@ -7,11 +7,25 @@
 
 nav {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.637) 0%, rgba(255,255,255,0) 100%);
+    transition: all 0.3s ease-in-out;
+}
+
+nav.sticky {
+    background-color: #00549e !important;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255,255,255,0) 100%);
+    padding: 2px 3px 2px 3px !important;
+    transition: all 0.3s ease-in-out;
+}
+
+.sticky .nav-link,
+.sticky .fw-bold,
+.sticky .fa-solid {
+    color: rgb(255, 255, 255) !important;
 }
 
 .img {
     position: relative;
-    height:580px;
+    height:610px;
 }
   
 .img::before {
@@ -45,4 +59,35 @@ nav {
     width: 20%;
     aspect-ratio: 3/2;
     object-fit: contain;
+}
+
+.limit-title {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.limit-title:hover {
+    -webkit-line-clamp: unset;
+    overflow: visible;
+}
+
+.justify {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.card-shadow {
+    box-shadow: 0px 0px 30px -4px rgba(0,0,0,0.1);
+}
+
+.card-hover {
+    box-shadow: 0px 0px 30px -4px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.card-hover:hover {
+    box-shadow: 0px 0px 30px -4px #0000002f;
+
 }

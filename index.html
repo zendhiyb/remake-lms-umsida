@@ -21,7 +21,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
 </head>
-<body>
+<body style="height: 1000px;">
     <nav class="navbar navbar-expand-lg bg-transparent fixed-top">
         <div class="container-fluid p-3 px-4">
         <a class="fw-bold text-dark fs-5 link-underline text-white link-underline-opacity-0 me-3" href="#">LMS UMSIDA</a>
@@ -47,19 +47,19 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light me-1" aria-current="page" href="#">
+                <a class="nav-link me-1" aria-current="page" href="#">
                     <div class="form-check form-switch">
                         <input class="form-check-input" style="height: 22px; width: 50px; margin-top: 1px;" type="checkbox" role="switch" id="flexSwitchCheckDefault">
                     </div>
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light me-1" href="#">
+                <a class="nav-link me-1" href="#">
                     <i class="fa-solid fa-bell fs-5" style="color: #ffffff;"></i>
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light me-1" href="#">
+                <a class="nav-link me-1" href="#">
                     <i class="fa-solid fa-comments fs-5" style="color: #ffffff;"></i>
                 </a>
               </li>
@@ -69,15 +69,25 @@
             </ul>
           </div>
 
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+            <i class="fa-solid fa-bars text-white"></i>
           </button>
         </div>
-    </nav>
+      </nav>
+      <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdrop with scrolling</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <p>Try scrolling the rest of the page to see this option in action.</p>
+        </div>
+      </div>
+
     <div class="img">
       <div class="content">
         <div class="text-center mb-4">
-          <div class="" style="padding-top: 180px; padding-bottom: 6%;">
+          <div class="" style="padding-top: 190px; padding-bottom: 6%;">
             <div class="card border-0 rounded-0 bg-transparent">
               <div class="container">
                 <div class="row">
@@ -102,12 +112,258 @@
           </div>
         </div> 
       </div>      
-      <div class="card border-0 pt-4 rounded-bottom-0 rounded-5" style="padding-bottom: 70px;">
+      <div class="card border-0 pt-3 rounded-bottom-0 rounded-5" style="padding-bottom: 140px;">
+        <div class="container">
+          <div class="card border-0 rounded-0">
+            <div class="row">
+              <div class="col-4"></div>
+              <div class="col-4">
+                <div class="card w-100 border-0 pt-1 bg-secondary bg-opacity-25"></div>
+              </div>
+              <div class="col-4"></div>
+            </div>
+          </div>
+          <div class="card p-3 mt-4 border-0">
+            <div class="clearfix">
+              <h4 class="float-lg-start mb-3 mt-2 fw-bold">Available courses</h4>
+              <div class="float-lg-end">
+                <div class="d-flex flex-wrap">
+                  <div class="me-2 mb-3">
+                    <form action="">
+                      <div class="input-group flex-nowrap rounded-5 card-shadow">
+                        <input type="text" class="form-control rounded-start-5 border ps-4" placeholder="Search courses" aria-label="Username" aria-describedby="addon-wrapping">
+                        <button class="btn btn-outline-light border text-dark rounded-end-5 pe-4"><i class="fa-solid fa-magnifying-glass me-1"></i> Search</button>
+                      </div>
+                    </form>
+                  </div>
+                  <button class="btn btn-outline-light border text-dark rounded-5 border px-4 mb-3 card-shadow"><i class="fa-solid fa-sliders me-1"></i> Filter</button>
+                </div>
+              </div>
+            </div>
+            <hr class="border mb-4">
+            <div class="card border-0 rounded-0 text-start">
+              <div class="row">
+                <div class="col-md-3">
+                  <a href="#" style="text-decoration: none;">
+                    <div class="card p-0 border border-light mb-4 rounded-3 card-shadow card-hover">
+                      <!-- <div class="position-absolute top-0 start-100 translate-middle">
+                        <i class="fa-solid fa-circle" style="color: #00549e;"></i>
+                      </div> -->
+                      <div class="p-3">
+                        <h6 class="limit-title lh-base fw-bold m-0">FIKIH IBADAH DAN MUAMAL.</h6>
+                      </div>
+                      <hr class="border m-0">
+                      <div class="p-3">
+                        <h6 class="limit-title lh-base fw-normal m-0">Rahmad Salahudin TP., S.Ag. M.Pd.I</h6>
+                        <p class="m-0 fw-light"><small>Instructor | 1 lesson</small></p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-3">
+                  <a href="#" style="text-decoration: none;">
+                    <div class="card p-0 border border-light mb-4 rounded-3 card-shadow card-hover">
+                      <!-- <div class="position-absolute top-0 start-100 translate-middle">
+                        <i class="fa-solid fa-circle" style="color: #00549e;"></i>
+                      </div> -->
+                      <div class="p-3">
+                        <h6 class="limit-title lh-base fw-bold m-0">FIKIH IBADAH DAN MUAMAL.</h6>
+                      </div>
+                      <hr class="border m-0">
+                      <div class="p-3">
+                        <h6 class="limit-title lh-base fw-normal m-0">Rahmad Salahudin TP., S.Ag. M.Pd.I</h6>
+                        <p class="m-0 fw-light"><small>Instructor | 1 lesson</small></p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-3">
+                  <a href="#" style="text-decoration: none;">
+                    <div class="card p-0 border border-light mb-4 rounded-3 card-shadow card-hover">
+                      <!-- <div class="position-absolute top-0 start-100 translate-middle">
+                        <i class="fa-solid fa-circle" style="color: #00549e;"></i>
+                      </div> -->
+                      <div class="p-3">
+                        <h6 class="limit-title lh-base fw-bold m-0">FIKIH IBADAH DAN MUAMAL.</h6>
+                      </div>
+                      <hr class="border m-0">
+                      <div class="p-3">
+                        <h6 class="limit-title lh-base fw-normal m-0">Rahmad Salahudin TP., S.Ag. M.Pd.I</h6>
+                        <p class="m-0 fw-light"><small>Instructor | 1 lesson</small></p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-3">
+                  <a href="#" style="text-decoration: none;">
+                    <div class="card p-0 border border-light mb-4 rounded-3 card-shadow card-hover">
+                      <!-- <div class="position-absolute top-0 start-100 translate-middle">
+                        <i class="fa-solid fa-circle" style="color: #00549e;"></i>
+                      </div> -->
+                      <div class="p-3">
+                        <h6 class="limit-title lh-base fw-bold m-0">FIKIH IBADAH DAN MUAMAL.</h6>
+                      </div>
+                      <hr class="border m-0">
+                      <div class="p-3">
+                        <h6 class="limit-title lh-base fw-normal m-0">Rahmad Salahudin TP., S.Ag. M.Pd.I</h6>
+                        <p class="m-0 fw-light"><small>Instructor | 1 lesson</small></p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-3">
+                  <a href="#" style="text-decoration: none;">
+                    <div class="card p-0 border border-light mb-4 rounded-3 card-shadow card-hover">
+                      <!-- <div class="position-absolute top-0 start-100 translate-middle">
+                        <i class="fa-solid fa-circle" style="color: #00549e;"></i>
+                      </div> -->
+                      <div class="p-3">
+                        <h6 class="limit-title lh-base fw-bold m-0">FIKIH IBADAH DAN MUAMAL.</h6>
+                      </div>
+                      <hr class="border m-0">
+                      <div class="p-3">
+                        <h6 class="limit-title lh-base fw-normal m-0">Rahmad Salahudin TP., S.Ag. M.Pd.I</h6>
+                        <p class="m-0 fw-light"><small>Instructor | 1 lesson</small></p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-3">
+                  <a href="#" style="text-decoration: none;">
+                    <div class="card p-0 border border-light mb-4 rounded-3 card-shadow card-hover">
+                      <!-- <div class="position-absolute top-0 start-100 translate-middle">
+                        <i class="fa-solid fa-circle" style="color: #00549e;"></i>
+                      </div> -->
+                      <div class="p-3">
+                        <h6 class="limit-title lh-base fw-bold m-0">FIKIH IBADAH DAN MUAMAL.</h6>
+                      </div>
+                      <hr class="border m-0">
+                      <div class="p-3">
+                        <h6 class="limit-title lh-base fw-normal m-0">Rahmad Salahudin TP., S.Ag. M.Pd.I</h6>
+                        <p class="m-0 fw-light"><small>Instructor | 1 lesson</small></p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-3">
+                  <a href="#" style="text-decoration: none;">
+                    <div class="card p-0 border border-light mb-4 rounded-3 card-shadow card-hover">
+                      <!-- <div class="position-absolute top-0 start-100 translate-middle">
+                        <i class="fa-solid fa-circle" style="color: #00549e;"></i>
+                      </div> -->
+                      <div class="p-3">
+                        <h6 class="limit-title lh-base fw-bold m-0">FIKIH IBADAH DAN MUAMAL.</h6>
+                      </div>
+                      <hr class="border m-0">
+                      <div class="p-3">
+                        <h6 class="limit-title lh-base fw-normal m-0">Rahmad Salahudin TP., S.Ag. M.Pd.I</h6>
+                        <p class="m-0 fw-light"><small>Instructor | 1 lesson</small></p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-3">
+                  <a href="#" style="text-decoration: none;">
+                    <div class="card p-0 border border-light mb-4 rounded-3 card-shadow card-hover">
+                      <!-- <div class="position-absolute top-0 start-100 translate-middle">
+                        <i class="fa-solid fa-circle" style="color: #00549e;"></i>
+                      </div> -->
+                      <div class="p-3">
+                        <h6 class="limit-title lh-base fw-bold m-0">FIKIH IBADAH DAN MUAMAL.</h6>
+                      </div>
+                      <hr class="border m-0">
+                      <div class="p-3">
+                        <h6 class="limit-title lh-base fw-normal m-0">Rahmad Salahudin TP., S.Ag. M.Pd.I</h6>
+                        <p class="m-0 fw-light"><small>Instructor | 1 lesson</small></p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-3">
+                  <a href="#" style="text-decoration: none;">
+                    <div class="card p-0 border border-light mb-4 rounded-3 card-shadow card-hover">
+                      <!-- <div class="position-absolute top-0 start-100 translate-middle">
+                        <i class="fa-solid fa-circle" style="color: #00549e;"></i>
+                      </div> -->
+                      <div class="p-3">
+                        <h6 class="limit-title lh-base fw-bold m-0">FIKIH IBADAH DAN MUAMAL.</h6>
+                      </div>
+                      <hr class="border m-0">
+                      <div class="p-3">
+                        <h6 class="limit-title lh-base fw-normal m-0">Rahmad Salahudin TP., S.Ag. M.Pd.I</h6>
+                        <p class="m-0 fw-light"><small>Instructor | 1 lesson</small></p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-3">
+                  <a href="#" style="text-decoration: none;">
+                    <div class="card p-0 border border-light mb-4 rounded-3 card-shadow card-hover">
+                      <!-- <div class="position-absolute top-0 start-100 translate-middle">
+                        <i class="fa-solid fa-circle" style="color: #00549e;"></i>
+                      </div> -->
+                      <div class="p-3">
+                        <h6 class="limit-title lh-base fw-bold m-0">FIKIH IBADAH DAN MUAMAL.</h6>
+                      </div>
+                      <hr class="border m-0">
+                      <div class="p-3">
+                        <h6 class="limit-title lh-base fw-normal m-0">Rahmad Salahudin TP., S.Ag. M.Pd.I</h6>
+                        <p class="m-0 fw-light"><small>Instructor | 1 lesson</small></p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-3">
+                  <a href="#" style="text-decoration: none;">
+                    <div class="card p-0 border border-light mb-4 rounded-3 card-shadow card-hover">
+                      <!-- <div class="position-absolute top-0 start-100 translate-middle">
+                        <i class="fa-solid fa-circle" style="color: #00549e;"></i>
+                      </div> -->
+                      <div class="p-3">
+                        <h6 class="limit-title lh-base fw-bold m-0">FIKIH IBADAH DAN MUAMAL.</h6>
+                      </div>
+                      <hr class="border m-0">
+                      <div class="p-3">
+                        <h6 class="limit-title lh-base fw-normal m-0">Rahmad Salahudin TP., S.Ag. M.Pd.I</h6>
+                        <p class="m-0 fw-light"><small>Instructor | 1 lesson</small></p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-3">
+                  <a href="#" style="text-decoration: none;">
+                    <div class="card p-0 border border-light mb-4 rounded-3 card-shadow card-hover">
+                      <!-- <div class="position-absolute top-0 start-100 translate-middle">
+                        <i class="fa-solid fa-circle" style="color: #00549e;"></i>
+                      </div> -->
+                      <div class="p-3">
+                        <h6 class="limit-title lh-base fw-bold m-0">FIKIH IBADAH DAN MUAMAL.</h6>
+                      </div>
+                      <hr class="border m-0">
+                      <div class="p-3">
+                        <h6 class="limit-title lh-base fw-normal m-0">Rahmad Salahudin TP., S.Ag. M.Pd.I</h6>
+                        <p class="m-0 fw-light"><small>Instructor | 1 lesson</small></p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="bg-white">
       <div class="container">
-        <div class="card p-4"></div>
+        <div class="card p-3">
+          
+        </div>
       </div>
     </div>
+
+    
+
+
+  <script src="assets/js/script.js"></script>
 </body>
 </html>
