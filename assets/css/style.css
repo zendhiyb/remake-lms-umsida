@@ -11,12 +11,13 @@ nav {
 }
 
 nav.sticky {
-    background-color: #00549e !important;
-    /* background-color: #ffffff !important; */
+    /* background-color: #00549e !important; */
+    /* background-color: #1C2A44 !important; */
+    background-color: #ffffff !important;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255,255,255,0) 100%);
     padding: 2px 3px 2px 3px !important;
     transition: all 0.3s ease-in-out;
-    /* box-shadow: 2px 0 5px rgb(180, 180, 180); */
+    box-shadow: 2px 0 5px rgb(180, 180, 180);
 }
 
 .dropdown:hover .dropdown-menu {
@@ -27,8 +28,8 @@ nav.sticky {
 .sticky .nav-link,
 .sticky .fw-bold,
 .sticky .fa-solid {
-    color: rgb(255, 255, 255) !important;
-    /* color: rgb(68, 68, 68) !important; */
+    /* color: rgb(255, 255, 255) !important; */
+    color: rgb(68, 68, 68) !important;
 }
 
 .img {
@@ -87,18 +88,19 @@ nav.sticky {
 }
 
 .card-shadow {
-    box-shadow: 0px 0px 20px -4px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 27px -4px rgba(0,0,0,0.1);
 }
 
 .card-hover {
-    box-shadow: 0px 0px 20px -4px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 27px -4px rgba(0,0,0,0.1);
     transition: all 0.3s ease-in-out;
 }
 
 .card-hover:hover {
-    box-shadow: 0px 0px 20px -4px #0000002f;
+    box-shadow: 0px 0px 27px -4px #0000002f;
 }
 
 .text-blue {
-    color: #00549ec2;
+    /* color: #00549ec2; */
+    color: #1c2a44c2;
 }
