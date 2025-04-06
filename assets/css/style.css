@@ -66,6 +66,7 @@ nav.sticky {
 
 .img-logo img {
     width: 20%;
+    min-width: 130px;
     aspect-ratio: 3/2;
     object-fit: contain;
 }
