@@ -9,38 +9,58 @@ window.addEventListener("scroll", () => {
 });
 
 
+// var options = {
+//   series: [70],
+//   chart: {
+//     height: 400,
+//     type: 'radialBar',
+//   },
+//   colors: ['#1C2A44'], // Warna radial bar
+//   plotOptions: {
+//     radialBar: {
+//       hollow: {
+//         size: '50%',
+//       }
+//     },
+//   },
+//   labels: ['Total'],
+// };
+
+// var chart = new ApexCharts(document.querySelector("#chart"), options);
+// chart.render();
+
+
 var options = {
-  series: [44, 55, 67, 83, 83, 83],
+  series: [44, 55, 67],
   chart: {
-  height: 350,
-  type: 'radialBar',
-},
-plotOptions: {
-  radialBar: {
-    dataLabels: {
-      name: {
-        fontSize: '22px',
-      },
-      value: {
-        fontSize: '16px',
-      },
-      total: {
-        show: true,
-        label: 'Total',
-        formatter: function (w) {
-          // By default this function returns the average of all series. The below is just an example to show the use of custom formatter function
-          return 249
+    height: 350,
+    type: 'radialBar',
+  },
+  colors: ['#1C2A44', '#1C2A44', '#1C2A44'], // Ganti warna semua radial bars
+  plotOptions: {
+    radialBar: {
+      dataLabels: {
+        name: {
+          fontSize: '25px',
+        },
+        value: {
+          fontSize: '16px',
+        },
+        total: {
+          show: true,
+          label: '-',
+          formatter: function (w) {
+            return
+          }
         }
       }
     }
-  }
-},
-labels: ['Apples', 'Oranges', 'Bananas', 'Berries', 'Berries', 'Berries'],
+  },
+  labels: ['Kuliah', 'Tugas', 'Quiz'],
 };
 
 var chart = new ApexCharts(document.querySelector("#chart"), options);
 chart.render();
-
 
   // var options = {
   //   series: [{

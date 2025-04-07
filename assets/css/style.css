@@ -106,9 +106,13 @@ nav.sticky {
     color: #1c2a44c2;
 }
 
+.bg-blue {
+    background-color: #1C2A44;
+}
+
 .img-2 {
     position: relative;
-    height:670px;
+    height: auto;
     border-top: solid rgba(226, 226, 226, 0.89) 1px;
     border-bottom: solid rgba(226, 226, 226, 0.89) 1px;
 }
@@ -157,6 +161,6 @@ th {
     display: none;
 }
 
-#chart3 {
-    margin-top: -170px;
+#chart {
+    margin-top: 0px;
 }
