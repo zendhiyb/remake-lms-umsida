@@ -36,7 +36,7 @@ var options = {
     height: 350,
     type: 'radialBar',
   },
-  colors: ['#1C2A44', '#1C2A44', '#1C2A44'], // Ganti warna semua radial bars
+  colors: ['#1C2A44', '#3A4A68', '#5A6B89'],
   plotOptions: {
     radialBar: {
       dataLabels: {
@@ -48,7 +48,7 @@ var options = {
         },
         total: {
           show: true,
-          label: '-',
+          label: 'ALL',
           formatter: function (w) {
             return
           }
@@ -56,7 +56,7 @@ var options = {
       }
     }
   },
-  labels: ['Kuliah', 'Tugas', 'Quiz'],
+  labels: ['Materials', 'Assignments', 'Quizzes'],
 };
 
 var chart = new ApexCharts(document.querySelector("#chart"), options);

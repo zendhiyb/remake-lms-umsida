@@ -113,6 +113,7 @@ nav.sticky {
 .img-2 {
     position: relative;
     height: auto;
+    background-color: #1c2a4413;
     border-top: solid rgba(226, 226, 226, 0.89) 1px;
     border-bottom: solid rgba(226, 226, 226, 0.89) 1px;
 }
@@ -128,7 +129,7 @@ nav.sticky {
     filter: 
 
         blur(0px)
-        opacity(6%)
+        opacity(7%)
     ;
     position: absolute;
     top: 0;
