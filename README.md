@@ -6,12 +6,16 @@
 
 🔗 Demo Live: https://zendhiyb.github.io/remake-lms-umsida/
 
+---
+
 ### Teknologi yang Digunakan
 
 - **HTML5** – struktur dasar halaman
 - **Bootstrap 5** – framework CSS responsif
 - **JavaScript** – logika interaktif
 - **ApexCharts** – untuk visualisasi progress belajar
+
+---
 
 ### Fitur Utama
 
