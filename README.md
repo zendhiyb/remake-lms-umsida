@@ -1,4 +1,4 @@
-![App Screenshot](https://github.com/zendhiyb/remake-lms-umsida/blob/5ecaa8933e73c4dcd9c22c4a9ab5910c7688cd2d/image/imgae3.png)
+![App Screenshot](https://github.com/zendhiyb/remake-lms-umsida/blob/cbf626670c29830337f2fdcb7402608d30a55f29/image/image.png)
 
 ## Remake LMS UMSIDA
 
